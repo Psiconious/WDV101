@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+    background-color: #1A1A1B;
+    font-family: 'League Gothic', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(180deg, #fadfad, #ba8759);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    margin-top: -4px;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar ul{
+    border-bottom: 1px solid whitesmoke;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444444;
+}
+
+.navbar li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+.navbar li a{
+    display: block;
+    color: #9e36d2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+  }
+
+.mainbody{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.mainbody img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px groove silver;
+}
+
+.mainbody li {
+    list-style-type: none;
+    text-decoration: 2px underline silver;
+}
+
+.aboutbody{
+    font-size: initial;
+    color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.aboutbody h3{
+    text-align: center;
+    border-bottom: 1px solid purple;
+}
+
+.breedlist{
+    padding: 10px 50px;
+    font-size: large;
+}
+
+.foot{
+    border-top: 1px solid whitesmoke;
+    color: white;
+    background-color: #1A1A1B;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+section{
+    min-height: calc(100vh - 140px);
+}
+
+.foot p {
+    padding-left: 10px;
+}
+
+.gallerybody{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.gallerycard{
+    margin: 20px;
+    border: 3px solid rgb(255, 136, 0);
+    float: left;
+    width: 200px;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+
+.gallerycard img{
+    width: 100%;
+    height: 150px;
+}
+
+.gallerycard :hover{
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.2);
+}
+
+.gallerycarddesc{
+    padding: 2px 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.gallerycarddesc p{
+    font-size: small;
+}

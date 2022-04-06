@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(56, 56, 56);
+}
+
+h1{
+    background-color: hsl(221, 100%, 16%);
+    color: #f1f1da;
+    font-family: seasideresortnfregular, Arial, sans-serif; 
+}
+h2{
+    font-family: 'Monofett', cursive;
+}
+p{
+    color:rgb(255, 255, 255);
+}
+
+ul{
+    color: white;
+}
+
+footer{
+    border-top: 2px solid whitesmoke;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('fonts/SEASRN__-webfont.eot');
+    src: url('fonts/SEASRN__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ .navbar ul {
+    border-bottom: 1px solid whitesmoke;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    float: left;
+    border-right: 1px solid black;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+

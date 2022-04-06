@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <script src="header.js"></script>
+    <link rel="stylesheet" type="text/css" href="contact_form.css" media="screen" />
+</head>
+<body onload="onPageLoad()">
+    <header>
+        
+    </header>
+    <br>
+    <section>
+        <div class="container" style="margin: auto;">
+            <form action="" method="POST" class="form">
+                <div class="form-group">
+                    <label for="first_name" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="John" tabindex="1" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="last_name" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Doe" tabindex="2" required >
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="JohnDoe@example.com" tabindex="3" required >
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <select name="subject" class="form-control" id="subject" tabindex="4">
+                        <option value="">Please choose a topic</option>
+                        <option value="web_dev">Web Development Services</option>
+                        <option value="web_design">Web Design Services</option>
+                        <option value="web_programming">Web Programming Services</option> 
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="5"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn" tabindex="6">Send Message!</button>
+                </div>
+            </form>
+        </div>    
+    </section>
+    <br>
+    <footer>
+        
+    </footer>
+</body>
+</html>

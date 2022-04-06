@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(238, 238, 161);
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    background-color: hsl(221, 100%, 16%);
+    color: #f1f1da;
+    font-family: seasideresortnfregular, Arial, sans-serif; 
+}
+h2{
+    font-family: 'Monofett', cursive;
+    clear: both;
+}
+
+h3,h4{
+    border-top: 5px solid purple;
+}
+
+p{
+    color:brown;
+    word-wrap: break-word;
+}
+
+img{
+    border: 4px double rebeccapurple;
+    padding: 10px;
+    margin: 10px;
+}
+
+.imgleft{
+    width: 10%;
+    height: auto;
+    float:left;
+}
+
+.imgright{
+    width: 10%;
+    height: auto;
+    float: right;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('fonts/SEASRN__-webfont.eot');
+    src: url('fonts/SEASRN__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:aliceblue;
+    padding:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#page_nav a{
+    text-decoration: none;
+}
+
+#page_nav li{
+    list-style-type: none;
+}
+
+#page_nav ul{
+    background-color: antiquewhite;
+    border-style: solid;
+}
+
+#navbar li{
+    display: inline;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    background-color: rgb(49, 49, 49);
+    border-style: solid;
+    border-top-color: rgb(98, 98, 98);
+    border-right-color: rgb(98, 98, 98);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-width: 5px;
+    width: auto;
+}
+
+#navbar li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-color: rgb(98, 98, 98, 0.5);
+    border-right-color: rgb(98, 98, 98, 0.5);
+    border-bottom-color: rgb(0, 0, 0, 0.5);
+    border-left-color: rgb(0, 0, 0, 0.5)
+}
+
+#navbar .active{
+    background-color: rgb(0, 0, 139);
+    border-top-color: rgb(0, 0, 188);
+    border-right-color: rgb(0, 0, 188);
+    border-bottom-color: rgb(0, 0, 90);
+    border-left-color: rgb(0, 0, 90);
+}
+
+#navbar ul{
+    background-color: rgb(49, 48, 48);
+    padding: 10px;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
