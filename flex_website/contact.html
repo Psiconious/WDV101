@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <ul>
+                <li><a href="http://www.trevercluney.com">Main Site</a></li>
+            </ul>
+            <ul>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <h1>Contact Form</h1>
+        </header>
+        <article class="main">
+            <div class="form-center">
+                <form action="contact.html" method="post">
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="reason">Topic: </label>
+                        <select name="reason" id="reason">
+                            <option value="general">General Inquiry</option>
+                            <option value="help">Tech Support</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="submit">
+                        <input type="reset" value="clear">
+                    </p>
+
+                </form>
+            </div>
+        </article>
+        <footer class="footer">
+            <div>
+                &copy; 2022 Trever Cluney
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

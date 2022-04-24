@@ -1,0 +1,148 @@
+body a{
+    text-decoration: none;
+    color: red;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper>*{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.header{
+    background: tomato;
+    height: 120px;
+}
+
+.footer{
+    text-align: left;
+    background: lightgreen;
+    height: 80px;
+}
+
+.footer div{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main{
+    text-align: left;
+    background: deepskyblue;
+    min-height: 300px;
+    font-size: 24px;
+    position: relative;
+}
+
+.main div p{
+    column-count: 3;
+    column-width: 150px;
+    column-gap: 60px;
+    word-wrap: break-word;
+}
+
+.main img{
+    display: inline-block;
+    padding: 10px;
+    width: 300px;
+    max-height: 430px;
+}
+
+.aside1{
+    background: gold;
+}
+
+.aside1 p {
+    text-align: left;
+}
+
+.aside2{
+    background: hotpink;
+}
+
+.navbar{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar ul{
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.navbar ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active, a:hover{
+    background-color: blue;
+    transition: .5s;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+    padding: 10px;
+}
+
+.form-center{
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (min-width: 800px){
+    .main{
+        flex: 3;
+    }
+
+    .aside1{
+        order: 1;
+    }
+
+    .aside2{
+        order: 2;
+    }
+
+    .main{
+        order: 2;
+    }
+
+    .footer{
+        order: 4;
+    }
+}
+
+@media all and (min-width: 600px){
+    .aside{
+        flex: 1;
+    }
+}

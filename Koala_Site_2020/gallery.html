@@ -1,51 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    
-    <script src="header.js"></script>
-    
-    <style>
-        div.polaroid {
-            width: 250px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-            background-color: azure;
-            padding-bottom: 5px;
-        }
-        .center {
-            margin: auto;
-            width: 60%;
-            padding: 10px; 
-        }
-        
 
+    <script src="header.js"></script>
+
+    <style>
+        .polaroid {
+            background: white;
+            border: 1px solid white;
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+        }
+
+        .polaroid figure{
+            margin:5px 5px 15px;
+        }
+
+        .polaroid img{
+            border-radius: 5%;
+        }
+
+        div.main {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1500px;
+        }
     </style>
 
 </head>
+
 <body onload="onPageLoad()">
     <header>
-        
+
     </header>
     <br>
     <section>
-        <div class="center">
+        <div class="main">
             <div class="polaroid">
-                <img src="images/koala_in_tree.jpg" alt="Kola in tree" style="width:100%">
-                <div class="container">
-                  <p style="color: black;">Jerry</p>
-                </div>
+                <figure>
+                    <img src="images/ella.jpg" alt="Ella">
+                    <figcaption>Ella</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/grant.jpg" alt="Grant">
+                    <figcaption>Grant</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/jams.jpg" alt="Jams">
+                    <figcaption>Jams</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/jilley_and_baby.jpg" alt="Jilley">
+                    <figcaption>Jilley with baby</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/koala_c.jpg" alt="Joey">
+                    <figcaption>Joey</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/lucy.jpg" alt="Lucy">
+                    <figcaption>Lucy</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/niley.jpg" alt="Niley">
+                    <figcaption>Niley</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/nooka_and_baby.jpg" alt="Nooka">
+                    <figcaption>Nooka with baby</figcaption>
+                </figure>
+            </div>
+            <div class="polaroid">
+                <figure>
+                    <img src="images/miffy.jpg" alt="Miffy">
+                    <figcaption>Miffy</figcaption>
+                </figure>
             </div>
         </div>
-
-        
     </section>
     <br>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
